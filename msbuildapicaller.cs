@@ -59,6 +59,7 @@ namespace MSBuildAPICaller {
         {   
         string projectPath = "msbuildapicaller.csproj";
         BuildProject(projectPath);
+        Console.ReadLine();
         }
     }
 }
